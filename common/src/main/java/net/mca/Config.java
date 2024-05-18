@@ -49,8 +49,8 @@ public final class Config implements Serializable {
     public boolean showNotificationsAsChat = false;
     public int heartsToBeConsideredAsFriend = 40;
     public boolean enableVillagerMailingPlayers = true;
-    public boolean allowBodyCustomizationInDestiny = true;
-    public boolean allowTraitCustomizationInDestiny = true;
+    public boolean allowBodyCustomizationInDestiny = false;
+    public boolean allowTraitCustomizationInDestiny = false;
     public boolean enableGenderCheckForPlayers = true;
 
     public float zombieBiteInfectionChance = 0.05f;
@@ -164,16 +164,16 @@ public final class Config implements Serializable {
     );
 
     //player customization
-    public boolean launchIntoDestiny = true;
-    public boolean allowDestinyCommandOnce = true;
+    public boolean launchIntoDestiny = false;
+    public boolean allowDestinyCommandOnce = false;
     public boolean allowDestinyCommandMoreThanOnce = false;
-    public boolean allowDestinyTeleportation = true;
-    public boolean enablePlayerShaders = true;
+    public boolean allowDestinyTeleportation = false;
+    public boolean enablePlayerShaders = false;
     public boolean enableVillagerPlayerModel = true;
     public boolean forceVillagerPlayerModel = false;
-    public boolean allowLimitedPlayerEditor = true;
+    public boolean allowLimitedPlayerEditor = false;
     public boolean allowFullPlayerEditor = false;
-    public boolean allowPlayerSizeAdjustment = true;
+    public boolean allowPlayerSizeAdjustment = false;
     public boolean adjustPlayerEyesToHeight = false;
 
     public boolean useModernUSANamesOnly = false;
